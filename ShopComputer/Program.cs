@@ -21,7 +21,8 @@ builder.Services.AddIdentity<ShopUser, IdentityRole>(
     })
     .AddEntityFrameworkStores<ShopContext>();
 
-builder.Services.AddAutoMapper(typeof(ShopUserProfile), typeof(RoleProfile));
+builder.Services.AddAutoMapper(typeof(ShopUserProfile), typeof(RoleProfile), 
+    typeof(BrandProfile), typeof(CategoryProfile));
 
 var app = builder.Build();
 

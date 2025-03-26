@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Program.cs",
+              "RelativeDocumentMoniker": "ShopComputer\\Program.cs",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Program.cs",
+              "RelativeToolTip": "ShopComputer\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:53:05.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ShopComputer\\Views\\_ViewImports.cshtml",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "ShopComputer\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T16:35:04.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T16:35:04.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "ShopComputer\\Views\\Categories\\Index.cshtml",
@@ -47,12 +63,11 @@
               "RelativeToolTip": "ShopComputer\\Views\\Categories\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T15:16:37.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T15:16:37.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "ShopComputer\\Controllers\\CategoriesController.cs",

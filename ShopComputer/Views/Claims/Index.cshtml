@@ -1,0 +1,45 @@
+﻿@using ShopComputer.Models.ViewModels.Claims
+@model IndexClaimsVm
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+    <h1>Твердження про користувача @Model.UserName</h1>
+    <h2>Email: @Model.Email</h2>
+    <a asp-action="Create">Додати твердження</a>
+    <hr />
+    @if (Model.Claims != null && Model.Claims.Count() > 0)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Тип твердження</th>
+                    <th>Значення твердження</th>
+                    <th>Тип значення</th>
+                    <th>Емітет</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var claim in Model.Claims)
+                {
+                    <tr>
+                        <td>@claim.Type</td>
+                        <td>@claim.Value</td>
+                        <td>@claim.ValueType</td>
+                        <td>@claim.Issuer</td>
+                        <td>
+                            <form asp-action="Delete" method="post">
+                                <input type="hidden" name="claimValues"
+                                       value="@claim.Type;@claim.Value;@claim.Issuer" />
+                                <button type="submit" class="btn btn-outline-danger">Видалити</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h3>Твердження відсутні</h3>
+    }

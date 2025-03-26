@@ -1,0 +1,22 @@
+﻿@model string
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Додавання нової ролі</h1>
+<hr />
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label for="roleName">Role Name</label>
+        <input type="text" id="roleName" name="roleName" required/>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-outline-success">Create</button>
+    </div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T16:35:04.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T15:16:37.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ShopComputer\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ShopComputer\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAswB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:23:59.08Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

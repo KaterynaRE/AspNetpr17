@@ -1,0 +1,19 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<h1>Додавання твердження</h1>
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label for="claimType" class="form-label">Тип твердження</label>
+        <input type="text" name="claimType" id="claimType" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label for="claimValue" class="form-label">Значення твердження</label>
+        <input type="text" name="claimValue" id="claimValue" class="form-control" />
+    </div>
+    <div class="mb3">
+        <button type="submit" class="btn btn-outline-primary">Додати</button>
+    </div>
+</form>
+<a asp-action="Index">Повернутися до списку тверджень</a>

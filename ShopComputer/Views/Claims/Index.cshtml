@@ -5,7 +5,7 @@
 *@
     <h1>Твердження про користувача @Model.UserName</h1>
     <h2>Email: @Model.Email</h2>
-    <a asp-action="Create">Додати твердження</a>
+    <a asp-action="Create" asp-controller="Claims">Додати твердження</a>
     <hr />
     @if (Model.Claims != null && Model.Claims.Count() > 0)
     {

@@ -7,7 +7,9 @@ using Microsoft.VisualBasic;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using ShopComputer.Data;
 using ShopComputer.Models.DTOs.Users;
+using ShopComputer.Models.ViewModels.Claims;
 using ShopComputer.Models.ViewModels.Users;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace ShopComputer.Controllers
@@ -146,6 +148,27 @@ namespace ShopComputer.Controllers
                 ModelState.AddModelError(string.Empty, error.Description);
             }
             return View(cP);
+        }
+
+        public async Task<IActionResult> ShowClaims(string? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            ShopUser? shopUser = await userManager.FindByIdAsync(id);
+            if (shopUser == null)
+            {
+                return NotFound();
+            }
+            IList<Claim> claims = await userManager.GetClaimsAsync(shopUser);
+            IndexClaimsVm vm = new IndexClaimsVm()
+            {
+                Claims = claims,
+                UserName = shopUser.UserName!,
+                Email = shopUser.Email!
+            };
+            return View("../Claims/Index", vm);
         }
 
     }

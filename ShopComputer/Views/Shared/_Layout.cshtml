@@ -15,20 +15,27 @@
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                     <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
                 </a>
-
+                @if (User.Identity != null && User.IsInRole("admin"))
+                {
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a asp-action="Index" asp-controller="Claims" class="dropdown-item">Твердження</a></li>
+                            <li><a asp-action="Create" asp-controller="Roles" class="dropdown-item">Створити роль</a></li>
+                            <li><a asp-action="UserList" asp-controller="Roles" class="dropdown-item">Ролі користувачей</a></li>
+                            <li><a asp-action="Index" asp-controller="Users" class="dropdown-item">Список користувачей</a></li>
+                            <li><a asp-action="Index" asp-controller="Roles" class="dropdown-item">Ролі</a></li>
+                        </ul>
+                    </div>
+                }
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="#" class="nav-link px-2 text-white">Товари</a></li>
                     <li><a asp-action="Index" asp-controller="Categories" class="nav-link px-2 text-white">Категорії</a></li>
                     <li><a asp-action="Index" asp-controller="Brands" class="nav-link px-2 text-white">Бренди</a></li>
-                    @if(User.Identity != null && User.IsInRole("admin"))
-                    {
-                        <li><a asp-action="Index" asp-controller="Claims"  class="nav-link px-2 text-white">Твердження</a></li>
-                        <li><a asp-action="Create" asp-controller="Roles"  class="nav-link px-2 text-white">Створити роль</a></li>
-                        <li><a asp-action="UserList" asp-controller="Roles" class="nav-link px-2 text-white">Список користувачей</a></li>
-                        <li><a asp-action="Index" asp-controller="Roles" class="nav-link px-2 text-white">Ролі</a></li>
-                    }
-                </ul>
 
+                </ul>
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                     <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
                 </form>
@@ -37,8 +44,8 @@
                     @if (User.Identity != null && User.Identity.IsAuthenticated)
                     {
                         <span class="ne-4">Привіт @User.Identity.Name</span>
-                        <a asp-action="Logout" asp-controller="Account" 
-                        class="btn btn-outline-light me-2">Logout</a>
+                        <a asp-action="Logout" asp-controller="Account"
+                           class="btn btn-outline-light me-2">Logout</a>
                     }
                     else
                     {

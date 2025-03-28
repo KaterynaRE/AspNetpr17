@@ -34,6 +34,7 @@ namespace ShopComputer.Controllers
 
         // GET: Categories/Details/5
         [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -60,6 +61,7 @@ namespace ShopComputer.Controllers
         //}
 
         [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public async Task<IActionResult> Create()
         {
             var categories = await _context.Categories
@@ -97,6 +99,7 @@ namespace ShopComputer.Controllers
 
         // GET: Categories/Edit/5
         [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -151,6 +154,7 @@ namespace ShopComputer.Controllers
 
         // GET: Categories/Delete/5
         [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

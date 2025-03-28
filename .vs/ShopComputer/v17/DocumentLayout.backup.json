@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopComputer\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "ShopComputer\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T20:39:08.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "ShopComputer\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "ShopComputer\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAYwKoAAAAKAAAAAAAAAA==",
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "ShopComputer\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "ShopComputer\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAA7wAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T20:15:25.636Z",
+              "WhenOpened": "2025-03-28T15:51:41.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopComputer\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "ShopComputer\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Program.cs",
+              "RelativeDocumentMoniker": "ShopComputer\\Program.cs",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Program.cs",
+              "RelativeToolTip": "ShopComputer\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:50:02.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwEoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T15:16:37.716Z",
+              "WhenOpened": "2025-03-28T13:39:37.661Z",
               "EditorCaption": ""
             }
           ]

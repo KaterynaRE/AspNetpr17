@@ -21,6 +21,29 @@ builder.Services.AddIdentity<ShopUser, IdentityRole>(
     })
     .AddEntityFrameworkStores<ShopContext>();
 
+
+builder.Services.AddAuthentication().AddGoogle(options => {
+    IConfigurationSection googleSection = builder.Configuration.GetSection("Authentication:Google");
+    string clientId = googleSection.GetValue<string>("ClientId") ??
+    throw new InvalidOperationException("Please provide ClientId!");
+    string clientSecret = googleSection.GetValue<string>("ClientSecret") ??
+    throw new InvalidOperationException("Please provide Client Secret!");
+    options.ClientId = clientId;
+    options.ClientSecret = clientSecret;
+});
+
+builder.Services.AddAuthorization(configure =>
+{
+    configure.AddPolicy("managerPolicy", policyBuilder =>
+    {
+        //policyBuilder.RequireRole("manager");
+        policyBuilder.RequireAssertion(context =>
+     context.User.IsInRole("manager") && !context.User.IsInRole("admin") && !context.User.IsInRole("user"));
+
+        policyBuilder.RequireAuthenticatedUser();
+    });
+});
+
 builder.Services.AddAutoMapper(typeof(ShopUserProfile), typeof(RoleProfile), 
     typeof(BrandProfile), typeof(CategoryProfile));
 

@@ -31,6 +31,8 @@ namespace ShopComputer.Controllers
         }
 
         // GET: Brands/Details/5
+        [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -50,6 +52,7 @@ namespace ShopComputer.Controllers
 
         // GET: Brands/Create
         [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public IActionResult Create()
         {
             return View();
@@ -60,6 +63,7 @@ namespace ShopComputer.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "manager")]
         public async Task<IActionResult> Create([Bind("Id,BrandName,Country")] BrandDTO brandDto)
         {
             if (ModelState.IsValid)
@@ -74,6 +78,7 @@ namespace ShopComputer.Controllers
 
         // GET: Brands/Edit/5
         [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -126,6 +131,7 @@ namespace ShopComputer.Controllers
 
         // GET: Brands/Delete/5
         [Authorize(Roles = "manager")]
+        [Authorize(Policy = "managerPolicy")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

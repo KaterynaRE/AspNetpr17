@@ -883,3 +883,4 @@ C:\Users\Home\Desktop\ITStep\ASP.Net\ls17\dz17\ShopComputer\obj\Debug\net8.0\Sho
 C:\Users\Home\Desktop\ITStep\ASP.Net\ls17\dz17\ShopComputer\obj\Debug\net8.0\ShopComputer.genruntimeconfig.cache
 C:\Users\Home\Desktop\ITStep\ASP.Net\ls17\dz17\ShopComputer\obj\Debug\net8.0\ref\ShopComputer.dll
 C:\Users\Home\Desktop\ITStep\ASP.Net\ls17\dz17\ShopComputer\obj\Debug\net8.0\ShopComputer.sourcelink.json
+C:\Users\Home\Desktop\ITStep\ASP.Net\ls17\dz17\ShopComputer\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

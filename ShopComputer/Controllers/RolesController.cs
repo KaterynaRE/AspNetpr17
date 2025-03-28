@@ -10,7 +10,7 @@ using ShopComputer.Models.ViewModels.Roles;
 
 namespace ShopComputer.Controllers
 {
-    [Authorize(Roles = "admin, manager")]
+    [Authorize(Roles = "admin")]
     public class RolesController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
@@ -31,10 +31,11 @@ namespace ShopComputer.Controllers
             return View(roleDtos);
         }
 
-       
+        
         public IActionResult Create() => View();
 
         [HttpPost]
+       
         public async Task<IActionResult> Create(string roleName)
         {
             if (string.IsNullOrEmpty(roleName))

@@ -1,7 +1,9 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ShopComputer.Data;
 using ShopComputer.Profiles;
+using ShopComputer.Requirements;
 
 var builder = WebApplication.CreateBuilder(args);
 string connStr = builder.Configuration.GetConnectionString("MSSQLShopDb") ??
@@ -21,6 +23,8 @@ builder.Services.AddIdentity<ShopUser, IdentityRole>(
     })
     .AddEntityFrameworkStores<ShopContext>();
 
+builder.Services.AddTransient<IAuthorizationRequirement, MinimalAgeRequirement>();
+builder.Services.AddTransient<IAuthorizationHandler, MinimalAgeAuthorizationHandler>();
 
 builder.Services.AddAuthentication().AddGoogle(options => {
     IConfigurationSection googleSection = builder.Configuration.GetSection("Authentication:Google");
@@ -42,6 +46,12 @@ builder.Services.AddAuthorization(configure =>
 
         policyBuilder.RequireAuthenticatedUser();
     });
+    configure.AddPolicy("adminAge", policyBuilder =>
+    {
+        policyBuilder.RequireRole("admin");
+        policyBuilder.Requirements.Add(new MinimalAgeRequirement { MinimalAge = 18});
+    });
+
 });
 
 builder.Services.AddAutoMapper(typeof(ShopUserProfile), typeof(RoleProfile), 

@@ -11,6 +11,7 @@ using ShopComputer.Models.ViewModels.Roles;
 namespace ShopComputer.Controllers
 {
     [Authorize(Roles = "admin")]
+    [Authorize(Policy = "adminAge")]
     public class RolesController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;

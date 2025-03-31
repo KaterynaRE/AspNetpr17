@@ -65,7 +65,7 @@ namespace ShopComputer.Controllers
         public async Task<IActionResult> Create()
         {
             var categories = await _context.Categories
-                .Include(c=>c.ParentCategory)
+                .Where(c => c.ParentCategoryId == null)
                 .ToListAsync();
             CreateCategoryVM vM = new CreateCategoryVM()
             {
@@ -73,7 +73,6 @@ namespace ShopComputer.Controllers
             };
             return View(vM);
         }
-
 
         // POST: Categories/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -196,12 +195,16 @@ namespace ShopComputer.Controllers
         public async Task<IActionResult> GetChildCategories(int? id)
         {
             if (id == null)
+            {
                 return NotFound();
+            }
             var categories = await _context.Categories
                 .Where(c => c.ParentCategoryId == id)
                 .ToListAsync();
             if (!categories.Any())
+            {
                 return NotFound();
+            }
             return PartialView("_ChildCategories", categories);
         }
 

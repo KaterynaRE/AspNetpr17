@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using ShopComputer.Data;
@@ -8,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace ShopComputer.Controllers
 {
+    [Authorize(Roles = "admin")]
+    [Authorize(Policy = "adminAge")]
     public class ClaimsController : Controller
     {
         private readonly UserManager<ShopUser> userManager;

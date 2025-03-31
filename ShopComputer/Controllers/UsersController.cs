@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -25,6 +26,8 @@ namespace ShopComputer.Controllers
             this.mapper = mapper;
         }
 
+        [Authorize(Roles = "admin")]
+        [Authorize(Policy = "adminAge")]
         public async Task<IActionResult> Index()
         {
             IEnumerable<ShopUser> users = await userManager.Users.ToListAsync();

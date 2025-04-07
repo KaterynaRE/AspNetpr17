@@ -31,7 +31,12 @@
                     </div>
                 }
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-white">Товари</a></li>
+                    @if (User.Identity != null && User.IsInRole("manager"))
+                    {
+                        <li><a asp-action="Index" asp-controller="ProductImages" class="nav-link px-2 text-white">Зображення</a></li>
+                    }
+                    <li><a asp-action="Index" asp-controller="Home" class="nav-link px-2 text-white">Головна</a></li>
+                    <li><a asp-action="Index" asp-controller="Products" class="nav-link px-2 text-white">Товари</a></li>
                     <li><a asp-action="Index" asp-controller="Categories" class="nav-link px-2 text-white">Категорії</a></li>
                     <li><a asp-action="Index" asp-controller="Brands" class="nav-link px-2 text-white">Бренди</a></li>
                 </ul>

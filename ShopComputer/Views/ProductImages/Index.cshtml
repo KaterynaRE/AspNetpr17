@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ShopComputerDomainLibrary.ProductImage>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<p style="margin:20px" class="container">
+    <p>
+        <a asp-action="Create" class="btn btn-success">Create New</a>
+    </p>
+    <div class="container-fluid" style="display:flex;
+flex-direction:row; width:100%; flex-wrap:wrap; overflow-x:hidden;">
+
+        @foreach (var item in Model)
+        {
+            <div class="card" style="width: 30%; margin:10px; padding:5px; overflow-x:hidden;">
+                @if (item.ImageData != null && item.ImageData.Length > 0)
+                {
+                    <img src="data:image/*;base64,@(Convert.ToBase64String(item.ImageData))"
+                         alt="@item.Product.ProductName" style="object-fit: contain; max-height: 200px; margin-top:10px;"
+                         class="card-img-top" />
+                }
+                else
+                {
+                    <p>No Image Available</p>
+                }
+                <div class="card-body text-center">
+                    <h5 class="card-title"><strong>Назва товару:</strong> @item.Product.ProductName</h5>
+                    <p class="card-text"><strong>Опис:</strong> @item.Product.Description</p>
+                    <p class="card-text"><strong>Ціна:</strong>@item.Product.Price</p>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

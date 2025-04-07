@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YvnD4oxPtRCPiYKSEx2O1b54NJHtbtbk3nmoxF95aAA=",
+  "Hash": "UkT9HtUVh1ZBLbw3Iem0uVFJnZG6P/VU1gkL7a9QHj0=",
   "Source": "ShopComputer",
   "BasePath": "_content/ShopComputer",
   "Mode": "Default",
@@ -31,11 +31,200 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ybngae6dgg",
-      "Integrity": "4kMbdiPO2h78ROr/Rf0nbnGxCfgZ95LnOhzfKZ+tGAw=",
+      "Fingerprint": "30dwjb244u",
+      "Integrity": "0yi2x/CyH+Vn5BLEJGJwvMipTdGgQrLWZtKnIlYQdAo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im2.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "noorhbx7wh",
+      "Integrity": "t0KVl2aP59IzPJUtrvXSNo7F8fkQRJdQuhr7ALY9Ei8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im3.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nzcbrjg52c",
+      "Integrity": "g31wEfF0pRpQV0fWvtKABWpTr23FoIu4OwtGh+Ao9XE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im4.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwdtwrpcog",
+      "Integrity": "o+dzUxWK3rFpc8WwTce8pKuBI94u6Sw3C0uQ5qLvI2o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im441.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im441#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2fd5zabjb8",
+      "Integrity": "0lFBhZ6DVQbzq8KQAEm+3j67NEMrRootSgrq8N1WE2s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im441.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im442.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im442#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7rsb87ej2h",
+      "Integrity": "rXUoz8Cl4h+7mpxPjxeYcbv0eA21liABo3ttxYdyQAk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im442.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im5.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yuidkbko8j",
+      "Integrity": "Rn8Zs6zY97CEpDHGEWwVvNTYHRKtB6eld4wzMbo6siY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im5.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im51.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im51#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1cv9ult6xw",
+      "Integrity": "4ajiO1Dp3jFxUTsZMcdxsL+bvpFUVlG2vPpDPxr+BGo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im51.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im52.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/im52#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wrs00uhx4f",
+      "Integrity": "VOaJpnHQIlCx0AESjq6XZouW41WS2ZSXEkHdOpmI1Zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im52.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\img_0_60_10654_0_1_QiLkht.webp",
+      "SourceId": "ShopComputer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\",
+      "BasePath": "_content/ShopComputer",
+      "RelativePath": "images/img_0_60_10654_0_1_QiLkht#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "90t8a4dq25",
+      "Integrity": "J5FS9NqWr1uZmlh4GOOXGblQaL5lgQeJxRBAudppDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img_0_60_10654_0_1_QiLkht.webp"
     },
     {
       "Identity": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
@@ -2896,6 +3085,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/style.30dwjb244u.css",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0yi2x/CyH+Vn5BLEJGJwvMipTdGgQrLWZtKnIlYQdAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "30dwjb244u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0yi2x/CyH+Vn5BLEJGJwvMipTdGgQrLWZtKnIlYQdAo="
+        }
+      ]
+    },
+    {
       "Route": "css/style.css",
       "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\css\\style.css",
       "Selectors": [],
@@ -2906,7 +3140,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "172"
+          "Value": "434"
         },
         {
           "Name": "Content-Type",
@@ -2914,11 +3148,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4kMbdiPO2h78ROr/Rf0nbnGxCfgZ95LnOhzfKZ+tGAw=\""
+          "Value": "\"0yi2x/CyH+Vn5BLEJGJwvMipTdGgQrLWZtKnIlYQdAo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:51:39 GMT"
+          "Value": "Thu, 03 Apr 2025 12:57:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2928,13 +3162,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4kMbdiPO2h78ROr/Rf0nbnGxCfgZ95LnOhzfKZ+tGAw="
+          "Value": "sha256-0yi2x/CyH+Vn5BLEJGJwvMipTdGgQrLWZtKnIlYQdAo="
         }
       ]
     },
     {
-      "Route": "css/style.ybngae6dgg.css",
-      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\css\\style.css",
+      "Route": "images/im2.noorhbx7wh.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2943,19 +3177,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "172"
+          "Value": "27624"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"4kMbdiPO2h78ROr/Rf0nbnGxCfgZ95LnOhzfKZ+tGAw=\""
+          "Value": "\"t0KVl2aP59IzPJUtrvXSNo7F8fkQRJdQuhr7ALY9Ei8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:51:39 GMT"
+          "Value": "Thu, 03 Apr 2025 11:48:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2965,15 +3199,708 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ybngae6dgg"
+          "Value": "noorhbx7wh"
         },
         {
           "Name": "label",
-          "Value": "css/style.css"
+          "Value": "images/im2.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4kMbdiPO2h78ROr/Rf0nbnGxCfgZ95LnOhzfKZ+tGAw="
+          "Value": "sha256-t0KVl2aP59IzPJUtrvXSNo7F8fkQRJdQuhr7ALY9Ei8="
+        }
+      ]
+    },
+    {
+      "Route": "images/im2.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t0KVl2aP59IzPJUtrvXSNo7F8fkQRJdQuhr7ALY9Ei8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 11:48:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t0KVl2aP59IzPJUtrvXSNo7F8fkQRJdQuhr7ALY9Ei8="
+        }
+      ]
+    },
+    {
+      "Route": "images/im3.nzcbrjg52c.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g31wEfF0pRpQV0fWvtKABWpTr23FoIu4OwtGh+Ao9XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 11:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nzcbrjg52c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/im3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g31wEfF0pRpQV0fWvtKABWpTr23FoIu4OwtGh+Ao9XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/im3.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g31wEfF0pRpQV0fWvtKABWpTr23FoIu4OwtGh+Ao9XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 11:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g31wEfF0pRpQV0fWvtKABWpTr23FoIu4OwtGh+Ao9XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/im4.jwdtwrpcog.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+dzUxWK3rFpc8WwTce8pKuBI94u6Sw3C0uQ5qLvI2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:19:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwdtwrpcog"
+        },
+        {
+          "Name": "label",
+          "Value": "images/im4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+dzUxWK3rFpc8WwTce8pKuBI94u6Sw3C0uQ5qLvI2o="
+        }
+      ]
+    },
+    {
+      "Route": "images/im4.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+dzUxWK3rFpc8WwTce8pKuBI94u6Sw3C0uQ5qLvI2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:19:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+dzUxWK3rFpc8WwTce8pKuBI94u6Sw3C0uQ5qLvI2o="
+        }
+      ]
+    },
+    {
+      "Route": "images/im441.2fd5zabjb8.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im441.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0lFBhZ6DVQbzq8KQAEm+3j67NEMrRootSgrq8N1WE2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:19:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2fd5zabjb8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/im441.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0lFBhZ6DVQbzq8KQAEm+3j67NEMrRootSgrq8N1WE2s="
+        }
+      ]
+    },
+    {
+      "Route": "images/im441.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im441.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0lFBhZ6DVQbzq8KQAEm+3j67NEMrRootSgrq8N1WE2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:19:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0lFBhZ6DVQbzq8KQAEm+3j67NEMrRootSgrq8N1WE2s="
+        }
+      ]
+    },
+    {
+      "Route": "images/im442.7rsb87ej2h.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im442.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXUoz8Cl4h+7mpxPjxeYcbv0eA21liABo3ttxYdyQAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7rsb87ej2h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/im442.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXUoz8Cl4h+7mpxPjxeYcbv0eA21liABo3ttxYdyQAk="
+        }
+      ]
+    },
+    {
+      "Route": "images/im442.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im442.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXUoz8Cl4h+7mpxPjxeYcbv0eA21liABo3ttxYdyQAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXUoz8Cl4h+7mpxPjxeYcbv0eA21liABo3ttxYdyQAk="
+        }
+      ]
+    },
+    {
+      "Route": "images/im5.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rn8Zs6zY97CEpDHGEWwVvNTYHRKtB6eld4wzMbo6siY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rn8Zs6zY97CEpDHGEWwVvNTYHRKtB6eld4wzMbo6siY="
+        }
+      ]
+    },
+    {
+      "Route": "images/im5.yuidkbko8j.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rn8Zs6zY97CEpDHGEWwVvNTYHRKtB6eld4wzMbo6siY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yuidkbko8j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/im5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rn8Zs6zY97CEpDHGEWwVvNTYHRKtB6eld4wzMbo6siY="
+        }
+      ]
+    },
+    {
+      "Route": "images/im51.1cv9ult6xw.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im51.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ajiO1Dp3jFxUTsZMcdxsL+bvpFUVlG2vPpDPxr+BGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:21:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1cv9ult6xw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/im51.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ajiO1Dp3jFxUTsZMcdxsL+bvpFUVlG2vPpDPxr+BGo="
+        }
+      ]
+    },
+    {
+      "Route": "images/im51.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im51.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ajiO1Dp3jFxUTsZMcdxsL+bvpFUVlG2vPpDPxr+BGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:21:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ajiO1Dp3jFxUTsZMcdxsL+bvpFUVlG2vPpDPxr+BGo="
+        }
+      ]
+    },
+    {
+      "Route": "images/im52.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im52.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOaJpnHQIlCx0AESjq6XZouW41WS2ZSXEkHdOpmI1Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOaJpnHQIlCx0AESjq6XZouW41WS2ZSXEkHdOpmI1Zk="
+        }
+      ]
+    },
+    {
+      "Route": "images/im52.wrs00uhx4f.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\im52.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOaJpnHQIlCx0AESjq6XZouW41WS2ZSXEkHdOpmI1Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 12:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wrs00uhx4f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/im52.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOaJpnHQIlCx0AESjq6XZouW41WS2ZSXEkHdOpmI1Zk="
+        }
+      ]
+    },
+    {
+      "Route": "images/img_0_60_10654_0_1_QiLkht.90t8a4dq25.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\img_0_60_10654_0_1_QiLkht.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5FS9NqWr1uZmlh4GOOXGblQaL5lgQeJxRBAudppDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 11:48:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "90t8a4dq25"
+        },
+        {
+          "Name": "label",
+          "Value": "images/img_0_60_10654_0_1_QiLkht.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5FS9NqWr1uZmlh4GOOXGblQaL5lgQeJxRBAudppDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/img_0_60_10654_0_1_QiLkht.webp",
+      "AssetFile": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\img_0_60_10654_0_1_QiLkht.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5FS9NqWr1uZmlh4GOOXGblQaL5lgQeJxRBAudppDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 11:48:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5FS9NqWr1uZmlh4GOOXGblQaL5lgQeJxRBAudppDSQ="
         }
       ]
     },

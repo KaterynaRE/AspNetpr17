@@ -1,0 +1,75 @@
+﻿@* @model IEnumerable<ShopComputerDomainLibrary.Product> *@
+@model IndexProductVM
+@using ShopComputer.Models.ViewModels.Products
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div style="margin:20px" class="container">
+    @if (User.Identity != null && User.IsInRole("manager"))
+    {
+        <p>
+            <a asp-action="Create" class="btn btn-success">Create New</a>
+        </p>
+    }
+    @if (Model.Products != null && Model.Products.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var item in Model.Products)
+            {
+                <div class="col">
+                    <div class="card h-100">
+                        @if (item.ProductImages != null && item.ProductImages.Any())
+                        {
+                            var firstImage = item.ProductImages.FirstOrDefault();
+                            if (firstImage != null)
+                            {
+                                <img src="data:image/*;base64,@(Convert.ToBase64String(firstImage.ImageData))"
+                                     alt="@item.ProductName"
+                                     class="card-img-top"
+                                     style="object-fit: contain; max-height: 200px; margin-top:10px;" />
+                            }
+                        }
+                        else
+                        {
+                            <p class="text-center">No Image Available</p>
+                        }
+
+                        <div class="card-body">
+                            <h5 class="card-title">@item.ProductName</h5>
+                            <p class="card-text"><strong>Опис:</strong> @item.Description</p>
+                            <h5 class="card-title"><strong>Ціна:</strong> @item.Price</h5>
+                            <h5 class="card-title"><strong>Бренд:</strong> @item.Brand.BrandName</h5>
+                            <h5 class="card-title"><strong>Категорія:</strong> @item.Category.CategoryName</h5>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            @if (User.Identity != null && User.IsInRole("manager"))
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                            }
+                            else if (User.Identity != null)
+                            {
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                        <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                            <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    }
+</div>

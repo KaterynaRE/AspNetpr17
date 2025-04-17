@@ -20,7 +20,8 @@ namespace ShopComputer.Controllers
         {
             int itemsPerPage = 3;
             IQueryable<Product> products = context.Products
-                .Include(b=>b.Brand).Include(c=>c.Category)
+                .Include(b=>b.Brand)
+                .Include(c=>c.Category)
                 .Include(i => i.ProductImages);
             int productsCount = products.Count();
             int totalPages = (int)Math.Ceiling((float)productsCount/itemsPerPage);
@@ -32,6 +33,24 @@ namespace ShopComputer.Controllers
                 Products = await products.ToListAsync()
             };
             return View(homeIndexVM);
+        }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var product = await context.Products
+                 .Include(b => b.Brand)
+                .Include(c => c.Category)
+                .Include(i => i.ProductImages)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
         }
     }
 }

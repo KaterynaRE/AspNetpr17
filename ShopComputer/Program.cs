@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ShopComputer.Data;
+using ShopComputer.Infrastructure.BinderProviders;
 using ShopComputer.Profiles;
 using ShopComputer.Requirements;
 
@@ -11,7 +12,9 @@ string connStr = builder.Configuration.GetConnectionString("MSSQLShopDb") ??
 
 builder.Services.AddDbContext<ShopContext>(options =>
 options.UseSqlServer(connStr));
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options => {
+    options.ModelBinderProviders.Insert(0, new CartModelBinderProvider());
+});
 
 builder.Services.AddIdentity<ShopUser, IdentityRole>(
     options => {
@@ -56,6 +59,9 @@ builder.Services.AddAuthorization(configure =>
 
 builder.Services.AddAutoMapper(typeof(ShopUserProfile), typeof(RoleProfile), 
     typeof(BrandProfile), typeof(CategoryProfile));
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession();
+builder.Services.AddDistributedMemoryCache();
 
 var app = builder.Build();
 
@@ -66,7 +72,7 @@ app.UseAuthorization();
 //app.MapControllerRoute(
 //    name: "default",
 //    pattern: "{controller=Account}/{action=Register}/{id?}");
-
+app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

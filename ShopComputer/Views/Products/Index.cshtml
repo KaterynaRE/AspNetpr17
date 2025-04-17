@@ -52,7 +52,19 @@
                             }
                             else if (User.Identity != null)
                             {
-                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                <div class="d-flex flex-row mb-3 justify-content-evenly">
+                                    <div>
+                                        <form asp-controller="Cart" asp-action="AddToCart">
+                                            <input type="hidden" name="id" value="@item.Id" />
+                                            <input type="hidden" name="returnUrl" value="@($"{Context.Request.Path}{Context.Request.QueryString}")" />
+                                            <button type="submit" class="btn btn-danger btn-sm">Купити</button>
+                                        </form>
+                                    </div>
+                                    <p>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                    </p>
+                                </div>
+                               
                             }
                         </div>
                     </div>

@@ -34,21 +34,34 @@
                         <div class="card-body">
                             <h5 class="card-title">@item.ProductName</h5>
                             <p class="card-text"><strong>Опис:</strong> @item.Description</p>
-                            <h5 class="card-title"><strong>Ціна:</strong> @item.Price</h5>
                             <h5 class="card-title"><strong>Бренд:</strong> @item.Brand.BrandName</h5>
                             <h5 class="card-title"><strong>Категорія:</strong> @item.Category.CategoryName</h5>
+                            <h5 class="card-title"><strong>Ціна:</strong> @item.Price</h5>
                         </div>
-
                         <div class="card-footer text-center">
                             @if (User.Identity != null && User.IsInRole("manager"))
                             {
-                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
-                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                                    <form asp-controller="Cart" asp-action="AddToCart">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <input type="hidden" name="returnUrl" value="@($"{Context.Request.Path}{Context.Request.QueryString}")" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Купити</button>
+                                    </form>
+                                </div>
                             }
                             else if (User.Identity != null)
                             {
-                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <form asp-controller="Cart" asp-action="AddToCart">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <input type="hidden" name="returnUrl" value="@($"{Context.Request.Path}{Context.Request.QueryString}")" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Купити</button>
+                                    </form>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                </div>
                             }
                         </div>
                     </div>

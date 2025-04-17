@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\img_0_60_10654_0_1_QiLkht.webp"
     },
     {
+      "Id": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\images\\no-image.webp",
+      "PackagePath": "staticwebassets\\images\\no-image.webp"
+    },
+    {
       "Id": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },

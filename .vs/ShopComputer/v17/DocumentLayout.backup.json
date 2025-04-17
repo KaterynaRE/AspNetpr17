@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|c:\\users\\home\\desktop\\itstep\\asp.net\\ls17\\dz17\\shopcomputer\\views\\shared\\components\\cartdetails\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{341B5E19-F5C4-4806-A31B-90927EDFA156}|ShopComputer\\ShopComputer.csproj|solutionrelative:shopcomputer\\views\\shared\\components\\cartdetails\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T13:49:25.164Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,35 +65,91 @@
               "RelativeDocumentMoniker": "ShopComputer\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "ShopComputer\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T09:22:22.261Z",
+              "WhenOpened": "2025-04-17T13:47:21.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ShopComputer\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ShopComputer\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAuwDgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "ShopComputer\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Models\\Cart.cs",
+              "RelativeToolTip": "ShopComputer\\Models\\Cart.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T09:20:16.628Z",
+              "WhenOpened": "2025-04-17T13:24:05.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShopComputer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShopComputer\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwC8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:10:25.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T07:31:25.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ShopComputer\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ShopComputer\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwCIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T13:46:08.01Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T19:12:48.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Shared\\Components\\CartDetails\\Default.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\Shared\\Components\\CartDetails\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Shared\\Components\\CartDetails\\Default.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\Shared\\Components\\CartDetails\\Default.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:39:52.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopComputer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Home\\Desktop\\ITStep\\ASP.Net\\ls17\\dz17\\ShopComputer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShopComputer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T15:03:06.488Z",
               "EditorCaption": ""
             }
           ]
